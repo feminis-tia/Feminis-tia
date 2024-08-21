@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+body{
+    background-color: #c99cd3;
+}
+header{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #b07ede;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+header ul li{
+    margin: 10px
+}
+
+img{
+    width: 65px;
+}
+h1{
+    font-size: 25px;
+    color: #7c1493;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-size: 20px;
+    color: #a837c1;
+    font-family: cursive;
+}
+p{
+    font-size: 18px;
+    color: #4a4646;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.presentacion{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: #7c1493;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+#nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nosotros iframe {
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #bc99dd;
+    margin: 10px 0px 10px 0;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 16px;
+    
+}
